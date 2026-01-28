@@ -22,7 +22,7 @@ main {
     align-items: top;
     text-align: center;
     background-color: #ffffff;
-    overflow-y: auto; /* Scrollar vertikalt om innehållet är för mycket */
+    overflow-y: auto;
 }
 
 aside {
@@ -42,12 +42,21 @@ footer {
     grid-area: footer;
     display: flex;
     justify-content: space-around;
-    background-color: #d0d0d0;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .left-align {
     margin-left: 10px;
     text-align: left;
+}
+
+.center-align-list ul,
+.center-align-list ol {
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+    padding: 0;
 }
 
 button {
