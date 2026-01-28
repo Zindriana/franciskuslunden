@@ -1,5 +1,6 @@
 html {
     font-size: 18px;
+    margin: 20px;
 }
 
 h1 {
@@ -91,6 +92,10 @@ footer > * > *:hover {
 ul, ol {
     font-size: 1.75rem;
     line-height: 1.5;
+}
+
+li:hover{
+    transform: scale(2.2);
 }
 
 .center-align-list ul,

@@ -1,0 +1,12 @@
+    -   Snygga till grafiken
+    -   Fixa med transform: scale på <li> inne på statutes.html
+    -   Transform på all text?
+    -   Lägg till bilder i galleriet
+    -   Lägg till info på de flikar där det saknas
+    -   Snygga till aside och dess knappar
+    -   Lägg till en kart-ikon för länken till google maps
+    -   Lägg till bild för Franciskus i footer
+    -   Lägg till bakgrundsbild i header
+    -   Lägg till tabb-värden för tillgänglighet
+    -   Testa sidan i funkify
+    -   Testa sidan i googles verktyg för utvärdering
