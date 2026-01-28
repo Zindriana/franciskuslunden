@@ -1,3 +1,24 @@
+html {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
 body {
     display: grid;
     grid-template-areas:
@@ -12,16 +33,21 @@ body {
 
 header {
     grid-area: header;
-    background-color: #f0f0f0;
+    background-color: #6da0ff;
+    text-align: center;
+    font-size: x-large;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     grid-area: main;
     display: flex;
     flex-direction: column;
-    align-items: top;
+    justify-content: start;
+    align-items: center;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #d6fcb2;
     overflow-y: auto;
 }
 
@@ -42,13 +68,29 @@ footer {
     grid-area: footer;
     display: flex;
     justify-content: space-around;
-    background-color: #000000;
+    align-items: center;
+    background-color: #160f01;
     color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+footer * {
+    font-size: 0.8rem;
+}
+
+footer > * > *:hover {
+    transform: scale(2.2);
 }
 
 .left-align {
     margin-left: 10px;
     text-align: left;
+}
+
+ul, ol {
+    font-size: 1.75rem;
+    line-height: 1.5;
 }
 
 .center-align-list ul,
@@ -60,5 +102,16 @@ footer {
 }
 
 button {
-    width: 50%;
+    width: 80px;
+    height: 30px;
+    font-size: 1,5rem;
+}
+
+button:hover {
+    transform: scale(2.2);
+}
+
+img {
+    max-width: 400px;
+    margin: 10px;
 }
