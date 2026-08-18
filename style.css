@@ -1,6 +1,5 @@
 html {
     font-size: 18px;
-    margin: 20px;
 }
 
 h1 {
@@ -26,8 +25,8 @@ body {
         "header header"
         "aside main"
         "footer footer";
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 2fr 7fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 8fr 1fr;
     height: 100vh;
     margin: 0;
 }
@@ -80,7 +79,8 @@ footer * {
     font-size: 0.8rem;
 }
 
-footer > * > *:hover {
+footer > * > *:hover,
+footer > * > *:focus {
     transform: scale(2.2);
 }
 
@@ -94,7 +94,8 @@ ul, ol {
     line-height: 1.5;
 }
 
-li:hover{
+li:hover,
+li:focus {
     transform: scale(2.2);
 }
 
@@ -112,7 +113,8 @@ button {
     font-size: 1,5rem;
 }
 
-button:hover {
+button:hover,
+button:focus {
     transform: scale(2.2);
 }
 
