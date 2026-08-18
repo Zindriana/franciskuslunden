@@ -26,9 +26,10 @@ body {
         "aside main"
         "footer footer";
     grid-template-columns: 1fr 5fr;
-    grid-template-rows: 1fr 10fr 1fr;
+    grid-template-rows: 100px 6fr 80px;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 header {
