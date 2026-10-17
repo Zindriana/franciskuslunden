@@ -77,12 +77,12 @@ footer {
 }
 
 footer * {
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 footer > * > p:hover,
 footer > * > p:focus {
-    transform: scale(2);
+    transform: scale(1.8);
 }
 
 .left-align {
@@ -126,4 +126,12 @@ img {
 
 a{
     color: #ffff00
+}
+
+span {
+    margin-left: 20px;
+}
+
+address {
+    font-style: normal;
 }
